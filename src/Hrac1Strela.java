@@ -5,22 +5,22 @@ public class Hrac1Strela {
 	//X a Y suradnice strely hraca1
 	private double x;
 	private double y;
-	private String tvar;
+	private String smer;
 
 	public Hrac1Strela(double x, double y) {
 		this.x = x;
 		this.y = y;
 	}
 	
-	public void pohyb(String tvar) {
-		this.tvar = tvar;
-		if(tvar.equals("right")) {
+	public void pohyb(String smer) {
+		this.smer = smer;
+		if(smer.equals("right")) {
 			x += 5;
 		}
-		if(tvar.equals("left")) {
+		if(smer.equals("left")) {
 			x -= 5;
 		}
-		if(tvar.equals("up")) {
+		if(smer.equals("up")) {
 			y -= 5;
 		}
 		else {

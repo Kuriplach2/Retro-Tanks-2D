@@ -342,21 +342,21 @@ public class Hra extends JPanel implements ActionListener {
 		g.drawString("Hráč 2:  "+ hrac2life, 660,290);
 		
 		if(hrac1life == 0 || hrac2life == 0){
-			g.setColor(Color.white);
+			g.setColor(Color.black);
 			g.setFont(new Font("Dialog",Font.BOLD, 60));
 			g.drawString("Game Over", 200,300);
 			g.drawString("Hráč 2 vyhral", 180,380);
 			play = false;
-			g.setColor(Color.white);
+			g.setColor(Color.black);
 			g.setFont(new Font("Dialog",Font.BOLD, 30));
 			g.drawString("(Space to Restart)", 230,430);
 		}
 		else if(hrac2life == 0) {
-			g.setColor(Color.white);
+			g.setColor(Color.black);
 			g.setFont(new Font("Dialog",Font.BOLD, 60));
 			g.drawString("Game Over", 200,300);
 			g.drawString("Hráč 1 vyhral", 180,380);
-			g.setColor(Color.white);
+			g.setColor(Color.black);
 			g.setFont(new Font("Dialog",Font.BOLD, 30));
 			g.drawString("(Space to Restart)", 230,430);
 			play = false;

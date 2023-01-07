@@ -4,7 +4,6 @@ import java.awt.Rectangle;
 import javax.swing.ImageIcon;
 
 public class Map {
-
 	int stenaON[] = new int[42];
 	private ImageIcon stenaImg;
 	private ImageIcon pevnaStenaImg;
